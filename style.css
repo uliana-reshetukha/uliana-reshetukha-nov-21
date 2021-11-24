@@ -107,7 +107,7 @@ img {
 .about__col__left {
   width: 50%;
   font-family: "Oswald", sans-serif;
-  font-size: 25pt;
+  font-size: 18pt;
   display: flex;
   align-items: center;
 }
@@ -157,6 +157,18 @@ img {
 
 .lg-backdrop {
   background-color: black;
+}
+
+.section .contacts_col_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 700px;
+}
+
+.contact_item {
+  display: block;
+  font-size: 16px;
 }
 /*
 
