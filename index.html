@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Про мене</title>
+
+    <!--Light Gallery-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Light Gallery-->
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="about" class="section section-about">
+      <div class="wrapper">
+        <div class="about__col__left">
+          <div class="about__col__left_wrapper">
+            <!--<p>Date: io et dolorem</p>-->
+            <h1>Про мене</h1>
+            <p>
+              Мене звати Уляна. Я навчаюсь на графічну дизайнерку, люблю звірів
+              і малювати. .
+            </p>
+          </div>
+        </div>
+        <div class="about__col__right">
+          <div class="about__col__right_image">
+            <img src="photo5226661065780211565.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="section section-portfolio">
+      <div class="wrapper">
+        <h2>Портфоліо</h2>
+        <div class="gallery" id="lightgallery">
+          <div class="gallery--item">
+            <a
+              href="portfolio\1_origin.JPG"
+              target="_blank"
+              data-sub-html="<h4>Дзеркальний</h4><p>alien observer</p>"
+            >
+              <img src="portfolio\1_small.jpg" />
+            </a>
+          </div>
+          <div class="gallery--item">
+            <a
+              href="portfolio\2_origin.JPG"
+              target="_blank"
+              data-sub-html="<h4>Планетарний</h4><p>alien observer</p>"
+            >
+              <img src="portfolio\2_small.jpg" />
+            </a>
+          </div>
+          <div class="gallery--item">
+            <a
+              href="portfolio\3_origin.jpg"
+              target="_blank"
+              data-sub-html="<h4>Метелик</h4><p>Театр світла і тіней</p>"
+            >
+              <img src="portfolio\3_small.jpg" />
+            </a>
+          </div>
+          <div class="gallery--item">
+            <a
+              href="portfolio\4_origin.JPG"
+              target="_blank"
+              data-sub-html="<h4>Самоназваний I</h4><p>alien observer</p>"
+            >
+              <img src="portfolio\4_small.jpg" />
+            </a>
+          </div>
+          <div class="gallery--item">
+            <a
+              href="portfolio\5_origin.jpg"
+              target="_blank"
+              data-sub-html="<h4>Самоназваний II</h4><p>alien observer</p>"
+            >
+              <img src="portfolio\5_small.jpg" />
+            </a>
+          </div>
+          <div class="gallery--item">
+            <a
+              href="portfolio\6_origin.JPG"
+              target="_blank"
+              data-sub-html="<h4>Ніколи не названий</h4><p>Театр світла і тіней</p>"
+            >
+              <img src="portfolio\6_small.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contacts" class="section section-contacts">
+      <div class="wrapper">
+        <div class="contacts_col_left">
+          <h2>Контакти</h2>
+          <a href="https://www.instagram.com/_ulia_resh_/" target="_blank"
+            >Instagram</a
+          >
+          <a href="https://www.facebook.com/uliana.reshetukha" target="_blank"
+            >Facebook</a
+          >
+          <a href="https://www.google.com/intl/uk/gmail/about/" target="_blank"
+            >reshetukha.uliana@gmail.com</a
+          >
+        </div>
+        <a href="#top">На початок</a>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="wrapper">
+        <a href="#top" class="logo">
+          <img src="logo_2.png" height="55px" />
+          <!-- <img src="logo.png" /> -->
+          <!--logo-->
+        </a>
+        <ul class="menu">
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#portfolio">Портфоліо</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+
+        <!--<button>ContactMe</button>-->
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".gallery--item a",
+      });
+    </script>
+  </body>
+</html>
