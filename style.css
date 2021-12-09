@@ -34,6 +34,11 @@ img {
   background-color: aliceblue;
   font-family: "Oswald", sans-serif;
   font-size: 20pt;
+  color: #222526;
+}
+
+.contact_item {
+  margin-top: 250px;
 }
 
 .header {
@@ -163,7 +168,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 700px;
 }
 
 .contact_item {
@@ -191,6 +195,10 @@ img {
   width: 420px;
   padding-top: 210px;
   margin-left: 500px;
+}
+
+.header {
+  z-index: 24;
 }
 /*
 
